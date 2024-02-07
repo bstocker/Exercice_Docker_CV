@@ -6,7 +6,7 @@ app = Flask(__name__) #creating flask app name
 def home():
     return render_template("resume_1.html")
 
-@app.route('/resume_1')
+@app.route('/index')
 def resume_1():
     return render_template("index.html")
 
