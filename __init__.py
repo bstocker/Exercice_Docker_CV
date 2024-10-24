@@ -19,4 +19,4 @@ def resume_template():
     return render_template("resume_template.html")
 
 if(__name__ == "__main__"):
-    app.run()
+    app.run(host='0.0.0.0', port=80)
